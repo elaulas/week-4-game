@@ -1,0 +1,64 @@
+#title {
+    background-color: #C97124;
+    width: fit-content;
+    clear: both;
+    font-family: 'Rammetto One', cursive;
+    color: white;
+    padding: 25px;
+    margin-left: 0;
+}
+
+#instructions {
+    background-color: #FBE7CC;
+    width: 430px;
+    margin-left: 15px;
+    padding: 15px;
+    color: #4D914B;
+    font-weight: bold;
+}
+
+#startNumber {
+    background-color: #5CC87F;
+    width: fit-content;
+    font-size: 30pt;
+    text-align: left;
+    margin-left: 30px;
+    padding: 0 175px 100px 5px;
+    float: left;
+}
+
+.wlColumn {
+    background-color: #4AFCFE;
+    width: fit-content;
+    float: left;
+    margin-left: 12px;
+    padding: 50px 50px 47px 50px; 
+}
+.crystal {
+    width: 100px;
+    clear: both;
+}
+
+.teal {
+    width: 70px;
+}
+
+.crystals {
+    margin-left: 50px;
+}
+.btmColm {
+    margin-left: 35px;
+    width: 150px;
+}
+
+.scoreHead {
+    background-color: #2AA296;
+    padding: 15px;
+    color: white;
+}
+
+#finalTotal {
+    background-color: #2AA296;
+    padding: 15px 15px 55px 15px;
+    color: white;
+}
