@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://image.freepik.com/free-vector/hexagonal-pattern_1051-833.jpg");
+
+}
+
 #title {
     background-color: #C97124;
     width: fit-content;
@@ -34,17 +39,28 @@
     margin-left: 12px;
     padding: 50px 50px 47px 50px; 
 }
+.blue, .red, .teal, .green {
+    background-color: white;
+    width: fit-content;
+    border: 5px solid #2AA296;
+}
 .crystal {
     width: 100px;
     clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 .teal {
-    width: 70px;
+    width: 87px;
+}
+.red {
+    width: 94px;
 }
 
 .crystals {
-    margin-left: 50px;
+    margin-left: 35px;
 }
 .btmColm {
     margin-left: 35px;

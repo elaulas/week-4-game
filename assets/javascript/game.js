@@ -1,13 +1,13 @@
 // Random Number
-var randomNumber = Math.floor(Math.random() * 51 + 10);
+var randomNumber = Math.floor(Math.random() * 120) + 19;
 $("#startNumber").text(randomNumber);
 
 // Crystal random numbers
 
-var blueNum = Math.floor(Math.random() * 11 + 1);
-var redNum = Math.floor(Math.random() * 11 + 1);
-var tealNum = Math.floor(Math.random() * 11 + 1);
-var greenNum = Math.floor(Math.random() * 11 + 1);
+var blueNum = Math.floor(Math.random() * 12) + 1;
+var redNum = Math.floor(Math.random() * 12) + 1;
+var tealNum = Math.floor(Math.random() * 12) + 1;
+var greenNum = Math.floor(Math.random() * 12) + 1;
 
 
 var userTotal = 0;
@@ -20,12 +20,12 @@ $("#finalTotal").text(userTotal);
 
 // Reset function
 function reset() {
-  randomNumber = Math.floor(Math.random() * 51 + 10);
+  randomNumber = Math.floor(Math.random() * 120) + 19;
   $("#startNumber").text(randomNumber);
-  blueNum = Math.floor(Math.random() * 11 + 1);
-  redNum = Math.floor(Math.random() * 11 + 1);
-  tealNum = Math.floor(Math.random() * 11 + 1);
-  greenNum = Math.floor(Math.random() * 11 + 1);
+  blueNum = Math.floor(Math.random() * 12) + 1;
+  redNum = Math.floor(Math.random() * 12) + 1;
+  tealNum = Math.floor(Math.random() * 12) + 1;
+  greenNum = Math.floor(Math.random() * 12) + 1;
   userTotal = 0;
   $("#finalTotal").text(userTotal);
 }
